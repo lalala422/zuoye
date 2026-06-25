@@ -22,7 +22,9 @@ navLinks?.querySelectorAll('a').forEach((link) => {
 const savedTheme = localStorage.getItem('theme');
 if (savedTheme === 'dark') {
   document.body.classList.add('dark');
+  if (themeToggle) {
   themeToggle.textContent = '☀';
+  }
 }
 
 themeToggle?.addEventListener('click', () => {
