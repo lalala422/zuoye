@@ -3,7 +3,9 @@ const navLinks = document.querySelector('.nav-links');
 const themeToggle = document.querySelector('.theme-toggle');
 const year = document.querySelector('#year');
 
+if (year) {
 year.textContent = new Date().getFullYear();
+}
 
 navToggle?.addEventListener('click', () => {
   const open = navLinks.classList.toggle('open');
