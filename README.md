@@ -1,27 +1,34 @@
 # Zuo Ye Academic Homepage
 
-This is a static academic homepage generated for GitHub Pages.
+This is a multi-page static academic homepage for GitHub Pages.
 
-## Files
+## Pages
 
-- `index.html`: homepage content
-- `assets/styles.css`: page style
-- `assets/main.js`: mobile menu and dark-mode toggle
-- `assets/Zuo_Ye_CV.pdf`: CV PDF
-- `.nojekyll`: tells GitHub Pages to serve the static files directly
+- `index.html` — home, biography, experience, education, honors and grants
+- `research.html` — research interests and current manuscripts
+- `publications.html` — preprints and journal publications
+- `talks-teaching.html` — talks, teaching, and referee service
+- `people.html` — collaborators and people
+- `contact.html` — contact information
 
-## Publish on GitHub Pages
+## Deploy to your current GitHub Pages site
 
-1. Create a repository named `zyprince007.github.io` or any other name.
-2. Upload all files in this folder to the root of the repository.
-3. Open repository **Settings → Pages**.
-4. Choose the branch `main` and the root folder `/`.
-5. Save. The site should be available after GitHub Pages finishes building.
+Your current site URL is:
 
-## Edit content
+```text
+https://lalala422.github.io/zuoye/
+```
 
-Most content can be edited directly in `index.html`. For colors and layout, edit `assets/styles.css`.
+Upload all files in this folder to the root of the `lalala422/zuoye` repository on the `main` branch.
+Do not upload the outer folder itself. The repository root should contain `index.html`, `research.html`,
+`publications.html`, `talks-teaching.html`, `people.html`, `contact.html`, `.nojekyll`, and the `assets` folder.
 
-## Privacy note
+The last-updated widget reads the latest commit from `lalala422/zuoye` on the `main` branch.
+The visitor counter uses `page_id=lalala422.zuoye.site`.
 
-The homepage does not display the phone number or detailed address from the CV. The included PDF CV may still contain that information. Replace `assets/Zuo_Ye_CV.pdf` with a public version if needed.
+## Editing
+
+- Change text directly in the corresponding `.html` page.
+- Change colors/layout in `assets/styles.css`.
+- Replace `assets/Zuo_Ye_CV.pdf` with a sanitized CV before public release if needed.
+- Replace `assets/research-background.png` if you want a different background.
